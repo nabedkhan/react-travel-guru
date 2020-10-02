@@ -1,0 +1,16 @@
+.card {
+    border: 1px solid #ced4da;
+    border-radius: 0px;
+}
+
+.card-body img {
+    width: 22px;
+}
+
+img.card-img-top {
+    height: 250px;
+}
+
+.card-title.h5 {
+    font-weight: 700;
+}

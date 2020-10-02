@@ -1,0 +1,89 @@
+.banner-area {
+    background-image: url(../../Images/banner.png);
+    min-height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+
+.banner-area::before {
+    background-color: black;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+.banner-text {
+    margin-top: 200px;
+    z-index: 111111;
+    color: #fff;
+}
+
+.banner-text h1 {
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.banner-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.banner-area .banner-text a {
+    background-color: #F9A51A;
+    color: #000000;
+    text-decoration: none;
+    padding: .7rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.single-place {
+    background-color: transparent;
+    border: 3px solid #00000059;
+    position: relative;
+    box-shadow: 0px 20px 50px -15px rgba(0, 0, 0, 0.75);
+}
+
+.single-place.m-3:after {
+    background: linear-gradient(0.12deg, #000000 0.1%, rgba(0, 0, 0, 0) 69.96%);
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    left: 0;
+}
+
+.single-place:focus {
+    outline: none;
+    border: 3px solid #F9A51A;
+}
+
+.single-place h3 {
+    font-weight: 600;
+    color: #FFFF;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    z-index: 222;
+}
+
+@media (max-width: 1199px) {
+    .banner-text {
+        margin: 50px 0px;
+        text-align: center;
+        padding: 1rem;
+    }
+}

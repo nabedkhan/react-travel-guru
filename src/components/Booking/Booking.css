@@ -1,0 +1,82 @@
+.booking {
+    background-image: url(../../Images/banner.png);
+    min-height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    position: relative;
+}
+
+.booking::before {
+    background-color: black;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+}
+
+.place-name {
+    color: #ffffff;
+    margin: 200px 0px;
+}
+
+.place-name h1 {
+    font-size: 66px;
+    font-weight: 700;
+}
+
+.place-name p {
+    font-size: 17px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+.booking-form {
+    background-color: #fff;
+    padding: 50px;
+    margin: 100px 0px;
+}
+
+.booking-form label, .booking-form input {
+    display: block;
+    width: 100%;
+    font-weight: 500;
+}
+
+.booking-form input {
+    padding: 10px;
+    background-color: #ced4da54;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.from, .to {
+    width: 48%;
+    display: inline-block;
+}
+
+.to {
+    float: right;
+}
+
+.booking-form input[type='submit'] {
+    background-color: #F9A51A;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: .7rem 2rem;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%;
+}

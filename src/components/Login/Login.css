@@ -1,0 +1,105 @@
+.form-area {
+    border: 1px solid #ced4da;
+    padding: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.form-area input {
+    font-weight: 500;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 0px;
+    color: #000000;
+    outline: none;
+}
+
+.form-area input[type="email"], .form-area input[type="password"], .form-area input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    font-weight: 500;
+}
+
+.form-area input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+.form-area .forget-password {
+    float: right;
+    text-decoration-line: underline;
+    color: #F9A51A;
+}
+
+.form-area input[type="submit"] {
+    margin-top: 30px;
+    background-color: #F9A51A;
+    border: none;
+}
+
+.form-area p {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.form-area p button {
+    text-decoration-line: underline;
+    color: #F9A51A;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.social-area {
+    position: relative;
+}
+
+.divider {
+    text-align: center;
+    position: relative;
+    line-height: 0;
+    margin: 30px 0px;
+}
+
+.divider::after {
+    content: "";
+    width: 100%;
+    display: block;
+    border-top: 1px solid #e7e7e7;
+    position: absolute;
+    top: 50%;
+}
+
+.divider p {
+    line-height: 1;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 10px 0 10px;
+    margin-bottom: 0;
+}
+
+.fb-area {
+    border: 1px solid #ced4da;
+    padding: 10px;
+    border-radius: 25px;
+    position: relative;
+}
+
+.fb-area img {
+    position: absolute;
+    top: 7px;
+}
+
+.fb-area button {
+    font-weight: 500;
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    display: block;
+    margin: auto;
+    outline: none;
+}
