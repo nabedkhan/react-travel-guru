@@ -1,3 +1,25 @@
+# Travel Guru Website
+Live Demo: https://nabed-travel-guru.firebaseapp.com
+
+
+## Overview
+1. This is a traveling website.
+2. Users can be select destinations and booking the hotel to stay in the destination place.
+3. The user can be seen also the destination map.
+4. Used mongodb for store user booking infromation
+
+
+## Technology Used
+1. Front End Side: Html, Css, Bootstrap, Javascript, React.
+2. Authentication: Firebase Login With Email & Password
+3. Back End Side: NodeJS, ExpressJS & MongoDB
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
